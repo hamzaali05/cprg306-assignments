@@ -27,7 +27,7 @@ const NewItem = () => {
           onChange={(e) => setQuantity(Number(e.target.value))} 
           className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-700 leading-tight focus:outline-none focus:shadow-outline"
           min="1" 
-          max="99" 
+          max="20" 
           required 
         />
       </div>
