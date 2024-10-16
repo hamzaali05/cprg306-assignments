@@ -47,8 +47,7 @@ export default function NewItem() {
           onChange={(e) => setCategory(e.target.value)}
           className="mt-1 block w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:ring-blue-500 focus:border-blue-500"
         >
-          <option value="">Select a category</option>
-          <option value="Fruits">Produce</option>
+          <option value="Produce">Produce</option>
           <option value="Dairy">Dairy</option>
           <option value="Bakery">Bakery</option>
           <option value="Meat">Meat</option>
